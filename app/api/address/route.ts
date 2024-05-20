@@ -9,8 +9,13 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   return new NextResponse(
     // Step 3. Use getFrameHtmlResponse to create a Frame response
     getFrameHtmlResponse({
+      buttons: [
+        {
+          label: `CERE`,
+        },
+      ],
       image: `//s2.ezgif.com/tmp/ezgif-2-a8017bfa27.webp`,
-      postUrl: '#',
+      postUrl: 'https://base-hackathon-cera-network.vercel.app/#',
       input: {
         text: 'My address is '+userAddress,
       },
