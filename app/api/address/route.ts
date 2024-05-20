@@ -4,7 +4,7 @@ import type { FrameTransactionResponse } from '@coinbase/onchainkit/frame';
 import { NextRequest, NextResponse } from 'next/server';
 async function getResponse(req: NextRequest): Promise<NextResponse> {
   // Step 2. Build your Frame logic
-  const userAddress = await getFarcasterUserAddress(fid, options); 
+  const userAddress = "";//await getFarcasterUserAddress(fid, options); 
 
   return new NextResponse(
     // Step 3. Use getFrameHtmlResponse to create a Frame response
