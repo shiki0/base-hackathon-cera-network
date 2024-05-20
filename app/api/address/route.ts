@@ -15,10 +15,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         },
       ],
       image: `https://base-hackathon-cera-network.vercel.app/cerec.png`,
-      postUrl: 'https://base-hackathon-cera-network.vercel.app/#',
-      input: {
-        text: 'My address is whitelisted!'+userAddress,
-      },
+      postUrl: 'https://www.cere.network/',
     }),
   );
 }
