@@ -5,7 +5,9 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Story time',
+      label: 'Magic',
+      action: 'address',
+      target: `${NEXT_PUBLIC_URL}/api/address`,
     },
     {
       action: 'tx',
@@ -15,7 +17,7 @@ const frameMetadata = getFrameMetadata({
     },
   ],
   image: {
-    src: `${NEXT_PUBLIC_URL}/park-3.png`,
+    src: `${NEXT_PUBLIC_URL}/cere.png`,
     aspectRatio: '1:1',
   },
   input: {
