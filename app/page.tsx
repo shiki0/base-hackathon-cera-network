@@ -17,7 +17,8 @@ const frameMetadata = getFrameMetadata({
     },
   ],
   image: {
-    src: `${NEXT_PUBLIC_URL}/cere.png`,
+    //src: `${NEXT_PUBLIC_URL}/cere.png`,
+    src: `//s2.ezgif.com/tmp/ezgif-2-a8017bfa27.webp`,
     aspectRatio: '1:1',
   },
   input: {
