@@ -6,7 +6,7 @@ const frameMetadata = getFrameMetadata({
   buttons: [
     {
       label: 'Magic',
-      action: 'address',
+      action: 'post',
       target: `${NEXT_PUBLIC_URL}/api/address`,
     },
     {
