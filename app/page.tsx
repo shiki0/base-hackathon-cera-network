@@ -10,10 +10,9 @@ const frameMetadata = getFrameMetadata({
       target: `${NEXT_PUBLIC_URL}/api/address`,
     },
     {
-      action: 'tx',
-      label: 'Send Base Sepolia',
-      target: `${NEXT_PUBLIC_URL}/api/tx`,
-      postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
+      action: 'link',
+      label: 'Go Mint your access!',
+      target: 'https://testnet.holograph.xyz/open-edition/joey-collins-requiem-by-joey-collins-uk',
     },
   ],
   image: {
