@@ -14,7 +14,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           label: `CERE`,
         },
       ],
-      image: `//s2.ezgif.com/tmp/ezgif-2-a8017bfa27.webp`,
+      image: `https://base-hackathon-cera-network.vercel.app/cerec.png`,
       postUrl: 'https://base-hackathon-cera-network.vercel.app/#',
       input: {
         text: 'My address is '+userAddress,
