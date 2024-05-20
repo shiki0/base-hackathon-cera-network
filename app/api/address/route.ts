@@ -15,7 +15,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         },
       ],
       image: `https://base-hackathon-cera-network.vercel.app/cerec.png`,
-      postUrl: 'https://www.cere.network/',
+      postUrl: 'https://base-hackathon-cera-network.vercel.app',
     }),
   );
 }
